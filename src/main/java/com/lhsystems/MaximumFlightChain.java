@@ -48,7 +48,6 @@ public class MaximumFlightChain {
                 resFlights.append(nextf);//this iterates through the list for a maximum of "startList.size" times to find the next flight that starthour is higher than the previous flight endhour
             }
         }
-
         return resFlights;
     }
 }
